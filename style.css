@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /*gradient background*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*styling for the main content box*/
+main {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/*styling for the title*/
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+/*styling for the text*/
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+/*styling for dice container*/
+.dice-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*styling for dice*/
+.dice {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/*dice dots styling and position*/
+.dice-dot {
+    --top: 0%;
+    --left: 0%;
+
+    width: 15px;
+    height: 15px;
+    background-color: #ff6f61;
+    border-radius: 50%;
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    transform: translate(-50%, -50%);
+}
+/*styling for the roll dice button*/
+.btn-roll-dice {
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+/*button hover effect*/
+.btn-roll-dice:hover {
+    background: #ff3b2f;
+}
