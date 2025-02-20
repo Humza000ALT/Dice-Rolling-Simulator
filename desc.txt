@@ -1,0 +1,39 @@
+Dice Rolling Simulator
+
+
+Project Overview--
+
+The Dice Rolling Simulator is an interactive web application that allows users to roll virtual dice at the click of a button. The simulator generates random dice rolls and visually displays them on the screen, making it a fun and engaging tool for games, probability studies, or just casual use.
+
+
+Features--
+
+Random Dice Rolls: Each click of the "Roll Dice" button generates new random numbers for the dice.
+
+Graphical Representation: The dice are displayed with accurate dot positions corresponding to standard six-sided dice.
+
+Multiple Dice Support: The simulator rolls two dice simultaneously.
+
+User-Friendly Interface: A simple and intuitive layout with a modern design and smooth animations.
+
+Instant Results: Dice rolls update in real-time without needing page reloads.
+
+
+How to Use--
+
+Open the Dice Rolling Simulator in a web browser.
+
+Click the "Roll Dice" button to generate a new roll.
+
+View the dice's updated results instantly.
+
+Repeat as many times as desired.
+
+
+Use Cases--
+
+Board Games & RPGs: Can be used as a replacement for physical dice in games like Monopoly, Dungeons & Dragons, and other tabletop games.
+
+Probability & Math Studies: Great for teaching probability concepts and statistics.
+
+Casual Fun: Use it for random number generation in simple decision-making or just for fun.
