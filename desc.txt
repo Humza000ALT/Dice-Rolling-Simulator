@@ -10,6 +10,8 @@ Features--
 
 Random Dice Rolls: Each click of the "Roll Dice" button generates new random numbers for the dice.
 
+Rolling animation: When rolled the dice does a rolling animation before showing the new dice numbers 
+
 Graphical Representation: The dice are displayed with accurate dot positions corresponding to standard six-sided dice.
 
 Multiple Dice Support: The simulator rolls two dice simultaneously.
@@ -25,7 +27,7 @@ Open the Dice Rolling Simulator in a web browser.
 
 Click the "Roll Dice" button to generate a new roll.
 
-View the dice's updated results instantly.
+View the dice's updated results after the rolling animation ends.
 
 Repeat as many times as desired.
 

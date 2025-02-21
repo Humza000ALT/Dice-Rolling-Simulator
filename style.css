@@ -73,3 +73,21 @@ p {
 .btn-roll-dice:hover {
     background: #ff3b2f;
 }
+
+/* rolling animation */
+@keyframes roll {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.2);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+/* apply animation to dice */
+.dice.rolling {
+    animation: roll 0.5s ease-out;
+}
